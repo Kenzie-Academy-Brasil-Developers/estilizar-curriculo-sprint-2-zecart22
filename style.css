@@ -1,3 +1,17 @@
+html{
+font-family: Lato, Helvetica, Arial, Sans Serif;
+}
+
+body{
+font-family: Lato, Helvetica, Arial, Sans Serif;
+background-color: #f3f3f3;
+}
+
+.titulos{
+ font-family: Arial;
+ color: #cf8a05;
+}
+
 .clear {
 	clear: both;
 }
@@ -10,18 +24,91 @@
 
 #name {
 	float: left;
+  border:;
+}
+
+#contatosLista{
+  list-style: none;
+  color: inherit;
 }
 
 #contactDetails {
 	float: right;
+  color: #181818
+  
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 100%;
+  color: #444444;
+  font-family: Arial;
+  font-size: 30px;
+  margin: 1px;
+}
+
+.sectionSubTitle{
+ color: #444444
+ 
 }
 
 .sectionContent {
+  margin :;
+  margin-top: -60px;
+  maginr-rigth: 10px;
 	float: right;
 	width: 72.5%;
+  color: #181818
+ 
 }
+
+.linhaLaranja{
+  weidth: 50px;
+  border: 2px solid;
+  color: #FFA500;
+}
+
+.keySkills{
+  float: none;
+}
+
+.keySkills2{
+  float: none;
+}
+.keySkills3{
+  float: none;
+}
+
+#topicos{
+  color: #cf8a05;
+  width: px;
+}
+
+.linhaCinza{
+
+border: 1px solid;  
+color: #dedede;  
+}
+
+#paragrafo1{
+border-top:10px;
+  
+}
+
+#topo{
+  display: flex;
+  justify-content: space-between;
+  align-itens: 300px;
+}
+
+#meio{
+  display: flex;
+  justify-content: space-between;
+  align-itens: 300px;
+}
+
+#final{
+  display: flex;
+  justify-content: space-between;
+  align-itens: 300px;
+}}
